@@ -2,6 +2,7 @@ language: python
 python:
   - "3.6"
 notifications:
+  slack: ibm-research:bLcRT4dofYlBUocjPBvlxO9p
   email: 
     recipients:
     - tidhamecha@in.ibm.com
@@ -13,4 +14,4 @@ before_install:
 
 script:
   - echo "skipping tests"	
-#   - py.test -s # or py.test for Python versions 3.5 and belo
+#   - py.test -s # or py.test for Python versions 3.5 and below
