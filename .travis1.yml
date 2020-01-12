@@ -3,7 +3,7 @@ python:
   - "3.6"
 notifications:
   email: 
-    recepients:
+    recipients:
       - tidhamecha@in.ibm.com
       on_success: always
       on_failure: always

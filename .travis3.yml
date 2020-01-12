@@ -4,7 +4,7 @@ python:
 notifications:
   slack: ibm-research:bLcRT4dofYlBUocjPBvlxO9p
   email: 
-    recepients:
+    recipients:
       - tidhamecha@in.ibm.com
       on_success: never
       on_failure: always
