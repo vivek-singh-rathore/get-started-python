@@ -4,9 +4,9 @@ python:
 notifications:
   email: 
     recipients:
-      - tidhamecha@in.ibm.com
-      on_success: always
-      on_failure: always
+    - tidhamecha@in.ibm.com
+    on_success: always
+    on_failure: always
 
 before_install:
   - echo -e "machine github.com\n  login $GITHUB_TOKEN" >> ~/.netrc
